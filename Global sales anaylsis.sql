@@ -5,7 +5,7 @@ CONCAT('$', FORMAT(SUM(Sales), 'N0'))  As Measure_name
 FROM Sales_data_clean;
 
 
---TOP 5 Cusomers By sales 
+--TOP 5 Customers By Sales 
 
 SELECT TOP 5
 Customer_Name,
@@ -14,7 +14,7 @@ FROM Sales_data_clean
 GROUP BY Customer_Name
 ORDER BY  SUM(Sales) DESC;
 
---- Sales By Region
+-- Sales By Region
 
 SELECT 
 Region,
@@ -23,7 +23,7 @@ FROM Sales_data_clean
 GROUP BY Region
 ORDER BY SUM(Sales) DESC; 
 
--- Yearly & Monthly Trends 
+-- Yearly & Monthly Sale Trends 
 
 SELECT
 YEAR(Order_Date) AS Order_Year,
