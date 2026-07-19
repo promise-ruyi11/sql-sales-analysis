@@ -17,7 +17,7 @@ This project uses the **Global sales** dataset, which contains retail sales tran
 ### Dataset Link
 You can access the dataset here:
 
-**📥 Download Dataset:** [Sample Superstore Dataset](https://github.com/yourusername/yourrepository/blob/main/data/Sample-Superstore.xlsx)
+**📥 Download Dataset:** [Sample Superstore Dataset](https://github.com/promise-ruyi11/sql-sales-analysis/blob/main/Global%20sales%20datasets.csv)
 
 ### Columns
 
